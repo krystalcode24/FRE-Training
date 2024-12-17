@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>HW3 Model/Region Filter Table</h1>
+
+    <div class="filters">
+        <label for="region-filter">Region Filter</label>
+        <select id="region-filter">
+            <option value="all">All</option>
+        </select>
+
+        <label for="model-filter">Model Filter</label>
+        <select id="model-filter">
+            <option value="all">All</option>
+        </select>
+    </div>
+
+    <table id="sales-table">
+        <thead>
+            <tr>
+                <th>region</th>
+                <th>model</th>
+                <th>sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be inserted here -->
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
